@@ -1,6 +1,6 @@
 # DataStructureAndAlgorithm
 
-数据结构与算法 Java版
+数据结构与算法 Java 版
 
 ## 为什么要学习数据结构与算法？
 
@@ -26,8 +26,8 @@
 
 ### 数组
 
-* [实现一个支持动态扩容的数组][DynamicArray]
+- [实现一个支持动态扩容的数组][dynamic-array]
 
-[DynamicArray]: ./src/com/fantasy/datastructure/array/DynamicArray.java
+[dynamic-array]: ./src/com/fantasy/datastructure/array/DynamicArray.java
 
 ## 算法
