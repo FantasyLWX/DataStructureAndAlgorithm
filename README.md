@@ -27,7 +27,15 @@
 ### 数组
 
 - [实现一个支持动态扩容的数组][dynamic-array]
+- [实现一个大小固定的有序数组，支持增删查改操作][ordered-array]
 
 [dynamic-array]: ./src/com/fantasy/datastructure/array/DynamicArray.java
+[ordered-array]: ./src/com/fantasy/datastructure/array/OrderedArray.java
 
 ## 算法
+
+### 数组
+
+- [将两个有序数组合并为一个有序数组][merge-two-ordered-array]
+
+[merge-two-ordered-array]: ./src/com/fantasy/algorithm/array/MergeTwoOrderedArray.java
