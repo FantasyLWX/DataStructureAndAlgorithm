@@ -5,7 +5,7 @@ package com.fantasy.datastructure.linkedlist;
  *
  * <pre>
  *     author  : Fantasy
- *     version : 1.0, 2020-07-02
+ *     version : 1.1, 2020-07-03
  *     since   : 1.0, 2020-07-02
  * </pre>
  */
@@ -17,8 +17,7 @@ public class SingleLinkedList {
     }
 
     public void insertHead(int value) {
-        ListNode newNode = new ListNode(value);
-        insertHead(newNode);
+        insertHead(new ListNode(value));
     }
 
     public void insertHead(ListNode node) {
