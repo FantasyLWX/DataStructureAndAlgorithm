@@ -35,8 +35,10 @@
 ## 链表
 
 * [实现一个单链表，支持增删操作][single-linked-list]
+* [实现一个循环链表，支持增删操作][circular-linked-list]
 
 [single-linked-list]: ./src/com/fantasy/datastructure/linkedlist/SingleLinkedList.java
+[circular-linked-list]: ./src/com/fantasy/datastructure/linkedlist/CircularLinkedList.java
 
 ## 算法
 
