@@ -32,13 +32,15 @@
 [dynamic-array]: ./src/com/fantasy/datastructure/array/DynamicArray.java
 [ordered-array]: ./src/com/fantasy/datastructure/array/OrderedArray.java
 
-## 链表
+### 链表
 
-* [实现一个单链表，支持增删操作][single-linked-list]
-* [实现一个循环链表，支持增删操作][circular-linked-list]
+- [实现一个单链表，支持增删操作][single-linked-list]
+- [实现一个循环链表，支持增删操作][circular-linked-list]
+- [实现一个双向链表，支持增删操作][doubly-linked-list]
 
 [single-linked-list]: ./src/com/fantasy/datastructure/linkedlist/SingleLinkedList.java
 [circular-linked-list]: ./src/com/fantasy/datastructure/linkedlist/CircularLinkedList.java
+[doubly-linked-list]: ./src/com/fantasy/datastructure/linkedlist/DoublyLinkedList.java
 
 ## 算法
 
