@@ -54,6 +54,8 @@
 
 - [反转单链表][reverse-linked-list]
 - [将两个有序链表合并为一个有序链表][merge-two-ordered-linked-list]
+- [查找链表的中间结点][find-middle-node]
 
 [reverse-linked-list]: ./src/com/fantasy/algorithm/linkedlist/ReverseLinkedList.java
 [merge-two-ordered-linked-list]: ./src/com/fantasy/algorithm/linkedlist/MergeTwoOrderedLinkedList.java
+[find-middle-node]: ./src/com/fantasy/algorithm/linkedlist/FindMiddleNode.java
