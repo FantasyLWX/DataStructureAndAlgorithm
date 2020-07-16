@@ -56,8 +56,10 @@
 - [将两个有序链表合并为一个有序链表][merge-two-ordered-linked-list]
 - [查找链表的中间结点][find-middle-node]
 - [检测链表中的环][detect-ring]
+- [删除链表倒数第 n 个结点][remove=node-from-end]
 
 [reverse-linked-list]: ./src/com/fantasy/algorithm/linkedlist/ReverseLinkedList.java
 [merge-two-ordered-linked-list]: ./src/com/fantasy/algorithm/linkedlist/MergeTwoOrderedLinkedList.java
 [find-middle-node]: ./src/com/fantasy/algorithm/linkedlist/FindMiddleNode.java
 [detect-ring]: ./src/com/fantasy/algorithm/linkedlist/DetectRing.java
+[remove=node-from-end]: ./src/com/fantasy/algorithm/linkedlist/RemoveNodeFromEnd.java
