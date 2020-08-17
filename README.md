@@ -42,6 +42,14 @@
 [circular-linked-list]: ./src/com/fantasy/datastructure/linkedlist/CircularLinkedList.java
 [doubly-linked-list]: ./src/com/fantasy/datastructure/linkedlist/DoublyLinkedList.java
 
+### 二叉树
+
+- [实现一个二叉查找树，支持增删查改操作][binary-search-tree]
+- [用数组实现一个完全二叉树][array-binary-tree]
+
+[binary-search-tree]: ./src/com/fantasy/datastructure/tree/BinarySearchTree.java
+[array-binary-tree]: ./src/com/fantasy/datastructure/tree/ArrayBinaryTree.java
+
 ## 算法
 
 ### 数组
@@ -56,12 +64,12 @@
 - [将两个有序链表合并为一个有序链表][merge-two-ordered-linked-list]
 - [查找链表的中间结点][find-middle-node]
 - [检测链表中的环][detect-ring]
-- [删除链表倒数第 n 个结点][remove=node-from-end]
+- [删除链表倒数第 n 个结点][remove-node-from-end]
 - [判断单链表是否是回文][palindrome-linked-list]
 
 [reverse-linked-list]: ./src/com/fantasy/algorithm/linkedlist/ReverseLinkedList.java
 [merge-two-ordered-linked-list]: ./src/com/fantasy/algorithm/linkedlist/MergeTwoOrderedLinkedList.java
 [find-middle-node]: ./src/com/fantasy/algorithm/linkedlist/FindMiddleNode.java
 [detect-ring]: ./src/com/fantasy/algorithm/linkedlist/DetectRing.java
-[remove=node-from-end]: ./src/com/fantasy/algorithm/linkedlist/RemoveNodeFromEnd.java
+[remove-node-from-end]: ./src/com/fantasy/algorithm/linkedlist/RemoveNodeFromEnd.java
 [palindrome-linked-list]: ./src/com/fantasy/algorithm/linkedlist/PalindromeLinkedList.java
