@@ -73,3 +73,9 @@
 [detect-ring]: ./src/com/fantasy/algorithm/linkedlist/DetectRing.java
 [remove-node-from-end]: ./src/com/fantasy/algorithm/linkedlist/RemoveNodeFromEnd.java
 [palindrome-linked-list]: ./src/com/fantasy/algorithm/linkedlist/PalindromeLinkedList.java
+
+### 二叉树
+
+- [二叉树的深度优先遍历和广度优先遍历][traversal-binary-search-tree]
+
+[traversal-binary-search-tree]: ./src/com/fantasy/algorithm/tree/TraversalBinarySearchTree.java
