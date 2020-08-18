@@ -77,5 +77,10 @@
 ### 二叉树
 
 - [二叉树的深度优先遍历和广度优先遍历][traversal-binary-search-tree]
+- [二叉树的最大深度][max-depth]
+- [判断是否是平衡二叉树][judge-binary-search-tree]
+- [判断是否是镜像二叉树][judge-binary-search-tree]
 
 [traversal-binary-search-tree]: ./src/com/fantasy/algorithm/tree/TraversalBinarySearchTree.java
+[max-depth]: ./src/com/fantasy/algorithm/tree/MaxDepth.java
+[judge-binary-search-tree]: ./src/com/fantasy/algorithm/tree/JudgeBinarySearchTree.java
