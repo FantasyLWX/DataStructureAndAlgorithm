@@ -21,11 +21,11 @@ import com.fantasy.datastructure.tree.TreeNode;
 public class TraversalBinarySearchTree {
 
     public static void main(String[] args) {
-        // 3
-        // / \
-        // 2 5
-        // / / \
-        // 1 4 6
+        //      3
+        //    /   \
+        //   2     5
+        //  /     / \
+        // 1     4   6
         BinarySearchTree tree = new BinarySearchTree();
         tree.insert(3);
         tree.insert(2);
