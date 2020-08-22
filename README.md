@@ -84,3 +84,15 @@
 [traversal-binary-search-tree]: ./src/com/fantasy/algorithm/tree/TraversalBinarySearchTree.java
 [max-depth]: ./src/com/fantasy/algorithm/tree/MaxDepth.java
 [judge-binary-search-tree]: ./src/com/fantasy/algorithm/tree/JudgeBinarySearchTree.java
+
+### 二分查找
+
+* [二分查找算法][binary-search]
+* [查找第一个等于给定值的元素][binary-search]
+* [查找最后一个等于给定值的元素][binary-search]
+* [查找第一个大于等于给定值的元素][binary-search]
+* [查找第一个大于给定值的元素][binary-search]
+* [查找最后一个小于等于给定值的元素][binary-search]
+* [查找最后一个小于给定值的元素][binary-search]
+
+[binary-search]: ./src/com/fantasy/algorithm/search/BinarySearch.java
