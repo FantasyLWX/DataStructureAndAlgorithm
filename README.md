@@ -87,9 +87,11 @@
 
 ### 排序
 
-- [快速排序][quicksort]
+- [冒泡排序][bubble-sort]
+- [快速排序][quick-sort]
 
-[quicksort]: ./src/com/fantasy/algorithm/sort/QuickSort.java
+[bubble-sort]: ./src/com/fantasy/algorithm/sort/BubbleSort.java
+[quick-sort]: ./src/com/fantasy/algorithm/sort/QuickSort.java
 
 ### 二分查找
 
