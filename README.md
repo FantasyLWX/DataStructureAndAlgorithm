@@ -45,8 +45,10 @@
 ### 栈
 
 - [顺序栈][array-stack]
+- [链式栈][linked-stack]
 
 [array-stack]: ./src/com/fantasy/datastructure/stack/ArrayStack.java
+[linked-stack]: ./src/com/fantasy/datastructure/stack/LinkedStack.java
 
 ### 二叉树
 
