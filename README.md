@@ -53,8 +53,10 @@
 ### 队列
 
 - [顺序队列][array-queue]
+- [链式队列][linked-queue]
 
 [array-queue]: ./src/com/fantasy/datastructure/queue/ArrayQueue.java
+[linked-queue]: ./src/com/fantasy/datastructure/queue/LinkedQueue.java
 
 ### 二叉树
 
