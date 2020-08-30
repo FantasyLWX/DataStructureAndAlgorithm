@@ -54,9 +54,11 @@
 
 - [顺序队列][array-queue]
 - [链式队列][linked-queue]
+- [循环队列][circular-queue]
 
 [array-queue]: ./src/com/fantasy/datastructure/queue/ArrayQueue.java
 [linked-queue]: ./src/com/fantasy/datastructure/queue/LinkedQueue.java
+[circular-queue]: ./src/com/fantasy/datastructure/queue/CircularQueue.java
 
 ### 二叉树
 
