@@ -42,6 +42,12 @@
 [circular-linked-list]: ./src/com/fantasy/datastructure/linkedlist/CircularLinkedList.java
 [doubly-linked-list]: ./src/com/fantasy/datastructure/linkedlist/DoublyLinkedList.java
 
+### 栈
+
+- [顺序栈][array-stack]
+
+[array-stack]: ./src/com/fantasy/datastructure/stack/ArrayStack.java
+
 ### 二叉树
 
 - [实现一个二叉查找树，支持增删查改操作][binary-search-tree]
