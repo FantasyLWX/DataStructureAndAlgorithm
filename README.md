@@ -50,6 +50,12 @@
 [array-stack]: ./src/com/fantasy/datastructure/stack/ArrayStack.java
 [linked-stack]: ./src/com/fantasy/datastructure/stack/LinkedStack.java
 
+### 队列
+
+- [顺序队列][array-queue]
+
+[array-queue]: ./src/com/fantasy/datastructure/queue/ArrayQueue.java
+
 ### 二叉树
 
 - [实现一个二叉查找树，支持增删查改操作][binary-search-tree]
