@@ -12,7 +12,7 @@ package com.fantasy.datastructure.queue;
 public class ArrayQueue {
     private String[] mData;
     /**
-     * 当前元素个数
+     * 队列的容量
      */
     private int mSize = 0;
     /**
@@ -57,10 +57,6 @@ public class ArrayQueue {
     }
 
     public String toString() {
-        if (mSize == 0) {
-            return "";
-        }
-
         StringBuilder sb = new StringBuilder();
         for (int i = mHead; i < mTail; i++) {
             sb.append(mData[i]);
