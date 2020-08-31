@@ -105,9 +105,11 @@
 
 ### 排序
 
+- [插入排序][insertion-sort]
 - [冒泡排序][bubble-sort]
 - [快速排序][quick-sort]
 
+[insertion-sort]: ./src/com/fantasy/algorithm/sort/InsertionSort.java
 [bubble-sort]: ./src/com/fantasy/algorithm/sort/BubbleSort.java
 [quick-sort]: ./src/com/fantasy/algorithm/sort/QuickSort.java
 
