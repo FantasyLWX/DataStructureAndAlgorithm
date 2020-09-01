@@ -41,4 +41,23 @@ public class InsertionSort {
         }
     }
 
+    /**
+     * 插入排序的另一种实现
+     *
+     * @param arr 数组
+     */
+    public static void insertionSort2(int[] arr) {
+        int length = arr.length;
+        int value; // 待插入的值
+        for (int i = 1; i < length; i++) {
+            value = arr[i];
+            int j = i;
+            while (j > 0 && arr[j - 1] > value) {
+                arr[j] = arr[j - 1];
+                j--;
+            }
+            arr[j] = value;
+        }
+    }
+
 }
