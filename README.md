@@ -107,11 +107,13 @@
 
 - [插入排序][insertion-sort]
 - [希尔排序][shell-sort]
+- [选择排序][selection-sort]
 - [冒泡排序][bubble-sort]
 - [快速排序][quick-sort]
 
 [insertion-sort]: ./src/com/fantasy/algorithm/sort/InsertionSort.java
-[shell-sort]: ./src/com/fantasy/algorithm/sort/InsertionSort.java
+[shell-sort]: ./src/com/fantasy/algorithm/sort/ShellSort.java
+[selection-sort]: ./src/com/fantasy/algorithm/sort/SelectionSort.java
 [bubble-sort]: ./src/com/fantasy/algorithm/sort/BubbleSort.java
 [quick-sort]: ./src/com/fantasy/algorithm/sort/QuickSort.java
 
