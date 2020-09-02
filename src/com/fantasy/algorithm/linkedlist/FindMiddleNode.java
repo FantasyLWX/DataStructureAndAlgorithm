@@ -38,7 +38,6 @@ public class FindMiddleNode {
      * @return 中间结点
      */
     public static ListNode findMiddleNode(ListNode head) {
-
         ListNode fast = head;
         ListNode slow = head;
 
