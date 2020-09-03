@@ -17,7 +17,7 @@ import java.util.Arrays;
  *
  * <pre>
  *     author  : Fantasy
- *     version : 1.0, 2020-08-31
+ *     version : 1.1, 2020-09-03
  *     since   : 1.0, 2020-08-31
  * </pre>
  */
@@ -36,27 +36,8 @@ public class InsertionSort {
         int j;
         for (int i = 1; i < length; i++) {
             value = arr[i];
-            for (j = i - 1; j >= 0 && arr[j] > value; j--) {
-                arr[j + 1] = arr[j];
-            }
-            arr[j + 1] = value;
-        }
-    }
-
-    /**
-     * 插入排序的另一种实现
-     *
-     * @param arr 数组
-     */
-    public static void insertionSort2(int[] arr) {
-        int length = arr.length;
-        int value; // 待插入的值
-        for (int i = 1; i < length; i++) {
-            value = arr[i];
-            int j = i;
-            while (j > 0 && arr[j - 1] > value) {
+            for (j = i; j >= 1 && arr[j - 1] > value; j--) {
                 arr[j] = arr[j - 1];
-                j--;
             }
             arr[j] = value;
         }
