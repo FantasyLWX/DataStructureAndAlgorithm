@@ -60,7 +60,7 @@ public class PalindromeLinkedList {
         }
 
         // 奇数个结点，则快指针会移动到最后一个结点，此时慢指针是指向中结点的，
-        // 所以要取 next 执政来作为后半串的头结点
+        // 所以要取 next 来作为后半串的头结点
         if (fast != null) {
             slow = slow.next;
         }
