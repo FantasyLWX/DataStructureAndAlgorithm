@@ -14,7 +14,7 @@ import com.fantasy.datastructure.tree.TreeNode;
  *
  * <pre>
  *     author  : Fantasy
- *     version : 1.0, 2020-08-17
+ *     version : 1.1, 2020-09-10
  *     since   : 1.0, 2020-08-17
  * </pre>
  */
@@ -39,7 +39,6 @@ public class TraversalBinarySearchTree {
         preorder(tree.getRoot()); // 3 2 1 5 4 6
         System.out.println();
         System.out.println("preorder2 : " + preorder2(tree.getRoot()));
-        System.out.println("preorder3 : " + preorder3(tree.getRoot()));
 
         // 中序遍历
         System.out.print("inorder : ");
@@ -52,7 +51,6 @@ public class TraversalBinarySearchTree {
         postorder(tree.getRoot()); // 1 2 4 6 5 3
         System.out.println();
         System.out.println("postorder2 : " + postorder2(tree.getRoot()));
-        System.out.println("postorder3 : " + postorder3(tree.getRoot()));
 
         // 广度优先遍历
         System.out.println("level order : " + levelOrder(tree.getRoot())); // 3 2 5 1 4 6
@@ -135,30 +133,6 @@ public class TraversalBinarySearchTree {
     }
 
     /**
-     * 先序遍历（非递归）
-     *
-     * @param root 根结点
-     * @return 结果
-     */
-    public static List<Integer> preorder3(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
-        TreeNode temp = root;
-
-        while (temp != null || !stack.empty()) {
-            while (temp != null) {
-                list.add(temp.value);
-                stack.push(temp);
-                temp = temp.left;
-            }
-            temp = stack.pop();
-            temp = temp.right;
-        }
-
-        return list;
-    }
-
-    /**
      * 中序遍历（非递归）
      *
      * @param root 根结点
@@ -189,36 +163,6 @@ public class TraversalBinarySearchTree {
      * @return 结果
      */
     public static List<Integer> postorder2(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
-        if (root == null) {
-            return list;
-        }
-
-        TreeNode temp = null;
-        Stack<TreeNode> stack = new Stack<>();
-        stack.push(root);
-
-        while (!stack.empty()) {
-            temp = stack.pop();
-            if (temp.left != null) {
-                stack.push(temp.left);
-            }
-            if (temp.right != null) {
-                stack.push(temp.right);
-            }
-            list.add(0, temp.value); // 逆序添加节点值
-        }
-
-        return list;
-    }
-
-    /**
-     * 后序遍历（非递归）
-     *
-     * @param root 根结点
-     * @return 结果
-     */
-    public static List<Integer> postorder3(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
         TreeNode cur = root;
