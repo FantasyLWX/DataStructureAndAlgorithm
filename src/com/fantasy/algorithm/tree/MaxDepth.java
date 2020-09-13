@@ -29,6 +29,7 @@ public class MaxDepth {
         tree.insert(1);
         tree.insert(4);
         tree.insert(6);
+        // tree.insert(7);
 
         System.out.println("max depth : " + getMaxDepth(tree.getRoot()));
         System.out.println("max depth2 : " + getMaxDepth2(tree.getRoot()));
@@ -50,27 +51,26 @@ public class MaxDepth {
             return 0;
         }
 
-        TreeNode current = null;
+        int level = 0;
+        TreeNode node = null;
         LinkedList<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
-        int cur, last;
-        int level = 0;
 
         while (!queue.isEmpty()) {
-            cur = 0; // 记录本层已经遍历的结点个数
-            last = queue.size(); // 当遍历完当前层以后，队列里元素全是下一层的元素，队列的长度是这一层的结点的个数
-            while (cur < last) { // 当还没有遍历到本层最后一个结点时，继续循环
-                current = queue.poll(); // 出队一个元素
-                cur++;
-                // 把当前结点的左右结点入队（如果存在的话）
-                if (current.left != null) {
-                    queue.offer(current.left);
+            int i = 0; // 记录本层已经遍历的结点个数
+            int size = queue.size(); // 当遍历完当前层以后，队列里元素全是下一层的元素，队列的长度是下一层的结点个数
+            while (i < size) { // 当还没有遍历到本层最后一个结点时，继续循环
+                node = queue.poll(); // 出队一个元素
+                i++;
+                // 如果存在的话，把当前结点的左右结点入队
+                if (node.left != null) {
+                    queue.offer(node.left);
                 }
-                if (current.right != null) {
-                    queue.offer(current.right);
+                if (node.right != null) {
+                    queue.offer(node.right);
                 }
             }
-            level++; // 每遍历完一层level+1
+            level++; // 每遍历完一层 level + 1
         }
 
         return level;
