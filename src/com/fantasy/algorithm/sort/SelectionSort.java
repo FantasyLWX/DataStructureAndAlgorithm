@@ -3,7 +3,7 @@ package com.fantasy.algorithm.sort;
 import java.util.Arrays;
 
 /**
- * 选择排序，稳定算法</br>
+ * 选择排序，原地排序算法，不稳定算法</br>
  * </br>
  * 思路：选择排序每次会从未排序区间中找到最小的元素，将其放到已排序区间的末尾。</br>
  * </br>

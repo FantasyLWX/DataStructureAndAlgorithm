@@ -3,7 +3,7 @@ package com.fantasy.algorithm.sort;
 import java.util.Arrays;
 
 /**
- * 冒泡排序，稳定算法</br>
+ * 冒泡排序，原地排序算法，稳定算法</br>
  * </br>
  * 思路：无序区两两比较，如果前者大于后者则交换两者的位置。每一轮过后，无序区的最大值都会上浮到至末尾，从而形成有序的数列。</br>
  * </br>
